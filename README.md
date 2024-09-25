@@ -16,8 +16,10 @@ Análise de sentimentos dos comentários sobre o app do LinkedIn no Google Play
 
 Este projeto realiza a extração e análise de resenhas do aplicativo LinkedIn na Google Play Store, focando na análise de sentimentos e visualização de dados. Também gera nuvens de palavras para os sentimentos positivos e negativos.
 
-
 ## Como Utilizar
+
+1. Clique na badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marioluciofjr/analise_sentimentos_linkedin/blob/main/sentimentos_linkedin.ipynb)
+2. Execute o código no Google Colab
 
 Certifique-se de ter os seguintes pacotes instalados no ambiente de execução (Google Colab ou localmente):
 
