@@ -3,13 +3,14 @@ Análise de sentimentos dos comentários sobre o app do LinkedIn no Google Play
 
 ## Sumário
 
-> [Introdução]()\
-> [Como utilizar]()\
-> [Estrutura do projeto]()\
-> [Links úteis]()\
-> [Contribuições]()\
-> [Licença]()\
-> [Contato]()
+> [Introdução](https://github.com/marioluciofjr/analise_sentimentos_linkedin/tree/main#introdu%C3%A7%C3%A3o)\
+> [Como utilizar](https://github.com/marioluciofjr/analise_sentimentos_linkedin/tree/main#como-utilizar)\
+> [Estrutura do projeto](https://github.com/marioluciofjr/analise_sentimentos_linkedin/tree/main#estrutura-do-projeto)\
+> [Links úteis](https://github.com/marioluciofjr/analise_sentimentos_linkedin/tree/main#links-%C3%BAteis)\
+> [Resultados](https://github.com/marioluciofjr/analise_sentimentos_linkedin/tree/main#resultados)\
+> [Contribuições](https://github.com/marioluciofjr/analise_sentimentos_linkedin/tree/main#contribui%C3%A7%C3%B5es)\
+> [Licença](https://github.com/marioluciofjr/analise_sentimentos_linkedin/tree/main#licen%C3%A7a)\
+> [Contato](https://github.com/marioluciofjr/analise_sentimentos_linkedin/tree/main#contato)
 
 ## Introdução
 
@@ -69,9 +70,21 @@ Durante o projeto utilizei várias ferramentas muito úteis e deixo aqui os link
 
 ### Gráfico de análise de sentimentos
 
+<div>
+  <img align="center" src="https://github.com/marioluciofjr/analise_sentimentos_linkedin/blob/main/grafico.png"/><br><br>
+</div>
+
 ### Nuvem de palavras da análise de sentimento positiva
 
+<div>
+  <img align="center" src="https://github.com/marioluciofjr/analise_sentimentos_linkedin/blob/main/sent_pos_linkedin.png"/><br><br>
+</div>
+
 ### Nuvem de palavras da análise de sentimento negativa
+
+<div>
+  <img align="center" src="https://github.com/marioluciofjr/analise_sentimentos_linkedin/blob/main/sent_neg_linkedin.png"/><br><br>
+</div>
 
 
 ## Contribuições
