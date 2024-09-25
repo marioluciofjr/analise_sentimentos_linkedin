@@ -13,31 +13,65 @@ Análise de sentimentos dos comentários sobre o app do LinkedIn no Google Play
 
 ## Introdução
 
+Este projeto realiza a extração e análise de resenhas do aplicativo LinkedIn na Google Play Store, focando na análise de sentimentos e visualização de dados. Também gera nuvens de palavras para os sentimentos positivos e negativos.
 
 
 ## Como Utilizar
 
-1. Entra no site [Neurotransmissores](https://neurotransmissores.vercel.app/);
-2. Digite o nome de um neurotransmissor ou palavra-chave relacionada no campo de pesquisa;
-3. Clique no botão "Pesquisar" para ver os resultados relacionados;
-4. Explore os links e informações exibidos para aprender mais sobre neurotransmissores.
+Certifique-se de ter os seguintes pacotes instalados no ambiente de execução (Google Colab ou localmente):
+
+- `google-play-scraper`
+- `pysentimiento`
+- `pandas`
+- `nltk`
+- `wordcloud`
+- `plotly`
+- `matplotlib`
+
+### Instalação dos Pacotes Necessários
+
+No Google Colab, as dependências podem ser instaladas automaticamente. Caso contrário, use o seguinte código para instalar manualmente:
+
+```bash
+!pip install google-play-scraper
+!pip install pysentimiento
+!pip install plotly
+!pip install nltk
+!pip install wordcloud
+!pip install matplotlib
+```
 
 ## Estrutura do projeto
 <div>
-  <img align="center" height="60" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
-  isentimentos_linkedin.ipynb<br><br>
+  <img align="center" height="60" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"/><br><br>
+  sentimentos_linkedin.ipynb<br><br>
 </div>
 
-1. **Estruturação da página**: Define a estrutura básica da aplicação com cabeçalho, campo de pesquisa e área de resultados.
-2. **Campo de pesquisa**: Um input onde o usuário pode digitar o nome de neurotransmissores ou sentimentos.
-3. **Botão de pesquisa**: Botão que dispara a função de pesquisa em JavaScript ao ser clicado.
-4. **Exibição de resultados**: Um espaço (`<section>`) reservado para a exibição dos resultados da busca de neurotransmissores.
-5. **Rodapé com links sociais**: Inclui links para perfis do LinkedIn e GitHub com ícones correspondentes.
+1. **Coleta de Resenhas da Google Play Store**: O código utiliza a biblioteca google-play-scraper para extrair todas as resenhas do aplicativo do LinkedIn disponível na Google Play Store. As resenhas são coletadas no idioma português do Brasil e são ordenadas por relevância.
+
+2. **Análise de Sentimento**: Usando o pacote pysentimiento, o código realiza uma análise de sentimento das resenhas coletadas, categorizando-as como positivas (POS), negativas (NEG), ou neutras (NEU).
+
+3. **Visualização da Distribuição de Sentimentos**: As resenhas são agrupadas com base nos sentimentos (positivo, negativo, neutro) e exibidas em um gráfico de barras interativo, utilizando a biblioteca plotly.express.
+
+4. **Geração de Nuvens de Palavras**: O código gera nuvens de palavras com base nas resenhas positivas e negativas, removendo stopwords (palavras comuns irrelevantes), para identificar os termos mais frequentes em cada tipo de sentimento.
+
+5. **Gravação e Leitura de Dados**: As resenhas extraídas da Google Play Store são salvas em um arquivo CSV chamado reviews.csv, que posteriormente é carregado para análise de sentimento e visualização.
 
 ## Links Úteis
 Durante o projeto utilizei várias ferramentas muito úteis e deixo aqui os links e alguns comentários de como foram importantes para mim neste projeto, até mesmo para quem deseja saber melhor ou mesmo compor seus próprios trabalhos:
 
-+ [Gemini](https://gemini.google.com/app) - explicação de funcionalidades no código, construção de trechos e comentários no código (dica importante da Aula 4 da Imersão Dev_ Alura & Google);
++ [Como salvar em uma planilha os reviews de um aplicativo da Play Store](https://tatiany-lukrafka.medium.com/como-salvar-em-uma-planilha-os-reviews-de-um-aplicativo-na-play-store-83452042a195) - artigo sobre o método de scraping dos reviews no Google Play;
++ [Pysentimiento](https://huggingface.co/pysentimiento/bertweet-pt-sentiment) - modelo pré-treinado para análise de sentimentos em língua portuguesa e publicado no Hugging Face;
++ [App do LinkedIn no Google Play](https://play.google.com/store/apps/details?id=com.linkedin.android&hl=pt_BR) - página do aplicativo do LinkedIn no Google Play;
++ [Curso Alura de Hugging Face: explorando e aplicando soluções com modelos de IA ](https://cursos.alura.com.br/course/hugging-face-explorando-aplicando-solucoes-modelos-ia) - curso Alura ministrado pela instrutora [Valquíria Alencar](https://www.linkedin.com/in/valquiria-alencar).
+
+## Resultados
+
+### Gráfico de análise de sentimentos
+
+### Nuvem de palavras da análise de sentimento positiva
+
+### Nuvem de palavras da análise de sentimento negativa
 
 
 ## Contribuições
