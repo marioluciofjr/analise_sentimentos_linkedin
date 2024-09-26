@@ -93,7 +93,7 @@ Durante o projeto utilizei várias ferramentas muito úteis e deixo aqui os link
 Contribuições são bem-vindas! Se você tem sugestões para melhorar este projeto, sinta-se à vontade para criar um fork do repositório, fazer suas alterações e enviar um pull request.
 
 ## Licença
-Este projeto está sob a licença MIT. Veja o arquivo [![LICENSE](https://img.shields.io/badge/LICENSE-42ffff?style=plastic&link=https://github.com/marioluciofjr/neurotransmissores/blob/main/LICENSE)](https://github.com/marioluciofjr/neurotransmissores/blob/main/LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [![LICENSE](https://img.shields.io/badge/LICENSE-42ffff?style=plastic&link=https://github.com/marioluciofjr/analise_sentimentos_linkedin/blob/main/LICENSE)](https://github.com/marioluciofjr/analise_sentimentos_linkedin/blob/main/LICENSE) para mais detalhes.
 
 ## Contato
 Mário Lúcio - Prazo Certo®
