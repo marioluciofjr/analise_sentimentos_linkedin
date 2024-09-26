@@ -76,13 +76,13 @@ Durante o projeto utilizei várias ferramentas muito úteis e deixo aqui os link
   <img align="center" src="https://github.com/marioluciofjr/analise_sentimentos_linkedin/blob/main/grafico.png"/><br><br>
 </div>
 
-### Nuvem de palavras da análise de sentimento positiva
+### Nuvem de palavras da análise de sentimentos positivos
 
 <div>
   <img align="center" src="https://github.com/marioluciofjr/analise_sentimentos_linkedin/blob/main/sent_pos_linkedin.png"/><br><br>
 </div>
 
-### Nuvem de palavras da análise de sentimento negativa
+### Nuvem de palavras da análise de sentimentos negativos
 
 <div>
   <img align="center" src="https://github.com/marioluciofjr/analise_sentimentos_linkedin/blob/main/sent_neg_linkedin.png"/><br><br>
